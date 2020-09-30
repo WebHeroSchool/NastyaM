@@ -1,13 +1,9 @@
      body {
-    font-family: Helvetica
+    font-family: Helvetica;
     margin: 0;
    }
-   .main-section {
-   margin: auto;
-   width: 80%;
-   }
   .wrapper {
-    margin: auto;
+    margin: 0 auto;
     width: 80%;
    }
   .logo,
@@ -15,13 +11,12 @@
     display: inline-block;
    }
   .header {
-    margin: auto;
-    width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
    }
   .logo {
-  position: relative:
+  position: relative;
   padding: 40px 0 40px 0;
    }
    .menu__item {
